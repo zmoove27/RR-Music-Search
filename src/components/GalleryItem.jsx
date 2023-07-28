@@ -1,5 +1,5 @@
 // GalleryItem.js
-import { useState } from 'react' 
+import { useState } from 'react'
 
 function GalleryItem(props){
     let [view, setView] = useState(false)
@@ -10,7 +10,7 @@ function GalleryItem(props){
         'border': '1px solid black',
         'margin': '2px'
     }
-    
+
     const detailStyle = {
         'width': '80vw',
         'height': '20vh',
